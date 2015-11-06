@@ -35,6 +35,9 @@ int main(int argc, string argv[])
     // print key (test)
     printf("%s\n", key);
     
+    // print plaintext (test)
+    printf("%s\n", text);
+    
 
     // return 0 for success
     return 0;
