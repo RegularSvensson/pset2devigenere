@@ -20,6 +20,15 @@ int main(int argc, string argv[])
     // store key as string
     string key = argv[1];
 
+    // validate key
+    for (int i = 0; i < strlen(key); i++)
+    {
+        if (!isalpha(key[i]))
+        {
+            return 1;
+        }
+    }
+
     // return 0 for success
     return 0;
 }
