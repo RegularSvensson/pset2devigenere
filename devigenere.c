@@ -29,6 +29,9 @@ int main(int argc, string argv[])
         }
     }
 
+    // get plaintext
+    string text = GetString();
+
     // print key (test)
     printf("%s\n", key);
     
