@@ -17,6 +17,9 @@ int main(int argc, string argv[])
         return 1;
     }
     
+    // store key as string
+    string key = argv[1];
+
     // return 0 for success
     return 0;
 }
