@@ -29,6 +29,10 @@ int main(int argc, string argv[])
         }
     }
 
+    // print key (test)
+    printf("%s\n", key);
+    
+
     // return 0 for success
     return 0;
 }
