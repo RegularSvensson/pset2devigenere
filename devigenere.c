@@ -7,3 +7,8 @@
 #include <string.h>
 #include <ctype.h>
 
+// main function
+int main(int argc, string argv[])
+{
+    printf("hello, world\n");
+}
