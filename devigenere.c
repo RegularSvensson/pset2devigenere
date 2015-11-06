@@ -16,4 +16,7 @@ int main(int argc, string argv[])
         printf("Please supply an integer key for caesar.\n");
         return 1;
     }
+    
+    // return 0 for success
+    return 0;
 }
