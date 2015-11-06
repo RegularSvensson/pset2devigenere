@@ -10,5 +10,10 @@
 // main function
 int main(int argc, string argv[])
 {
-    printf("hello, world\n");
+    // validate argc
+    if (argc != 2)
+    {
+        printf("Please supply an integer key for caesar.\n");
+        return 1;
+    }
 }
