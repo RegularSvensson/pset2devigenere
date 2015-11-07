@@ -79,4 +79,6 @@ int main(int argc, string argv[])
     // print new line
     printf("\n");
 
+    // return 0 for success
+    return 0;
 }
