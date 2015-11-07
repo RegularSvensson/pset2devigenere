@@ -10,4 +10,11 @@
 // main function
 int main(int argc, string argv[])
 {
+    // validate argc
+    if (argc != 2)
+    {
+        printf("Please supply a string key for devigenere.\n");
+        return 1;
+    }
+    
 }
