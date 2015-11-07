@@ -76,4 +76,7 @@ int main(int argc, string argv[])
         }
     }
     
+    // print new line
+    printf("\n");
+
 }
