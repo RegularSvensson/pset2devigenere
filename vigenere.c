@@ -33,4 +33,7 @@ int main(int argc, string argv[])
     // get plaintext
     string text = GetString();
     
+    // declare keyChar counter
+    int j = 0;
+
 }
