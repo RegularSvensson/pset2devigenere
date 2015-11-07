@@ -63,6 +63,8 @@ int main(int argc, string argv[])
                 // encipher letter
                 char letter = ((text[i] - 97 + keyChar - 97) % 26) + 97;
                 
+                // print letter
+                printf("%c", letter);
             }
         }
         // else, print non-alphabetic char
