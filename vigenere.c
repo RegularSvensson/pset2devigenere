@@ -57,6 +57,9 @@ int main(int argc, string argv[])
             // else, text char is lowercase
             else
             {
+                 // key char to lowercase
+                char keyChar = tolower(key[j % strlen(key)]);
+                
             }
         }
         // else, print non-alphabetic char
