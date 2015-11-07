@@ -45,6 +45,9 @@ int main(int argc, string argv[])
             // check if text char is uppercase
             if (isupper(text[i]))
             {
+                // key char to uppercase
+                char keyChar = toupper(key[j % strlen(key)]);
+                
             }
             // else, text char is lowercase
             else
