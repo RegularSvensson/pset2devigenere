@@ -30,4 +30,7 @@ int main(int argc, string argv[])
         }
     }
 
+    // get plaintext
+    string text = GetString();
+    
 }
