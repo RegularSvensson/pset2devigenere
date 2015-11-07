@@ -51,6 +51,8 @@ int main(int argc, string argv[])
                 // encipher letter
                 char letter = ((text[i] - 65 + keyChar - 65) % 26) + 65;
                 
+                // print letter
+                printf("%c", letter);  
             }
             // else, text char is lowercase
             else
