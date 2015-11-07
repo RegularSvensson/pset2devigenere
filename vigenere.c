@@ -60,6 +60,9 @@ int main(int argc, string argv[])
                  // key char to lowercase
                 char keyChar = tolower(key[j % strlen(key)]);
                 
+                // encipher letter
+                char letter = ((text[i] - 97 + keyChar - 97) % 26) + 97;
+                
             }
         }
         // else, print non-alphabetic char
