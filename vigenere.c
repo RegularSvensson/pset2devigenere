@@ -39,6 +39,15 @@ int main(int argc, string argv[])
     // loop over text chars
     for (int i = 0; i < strlen(text); i++)
     {
+        // check if text char is in alphabet
+        if (isalpha(text[i]))
+        {   
+        }
+        // else, print non-alphabetic char
+        else
+        {
+            printf("%c", text[i]);
+        }
     }
     
 }
