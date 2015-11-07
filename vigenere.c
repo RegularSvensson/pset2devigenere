@@ -66,6 +66,8 @@ int main(int argc, string argv[])
                 // print letter
                 printf("%c", letter);
             }
+            // increment keyChar counter
+            j++;
         }
         // else, print non-alphabetic char
         else
