@@ -36,4 +36,9 @@ int main(int argc, string argv[])
     // declare keyChar counter
     int j = 0;
 
+    // loop over text chars
+    for (int i = 0; i < strlen(text); i++)
+    {
+    }
+    
 }
