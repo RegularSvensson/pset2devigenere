@@ -1,4 +1,16 @@
-
+/*
+ * vigenere.c
+ * by Elias Svensson
+ *
+ * Takes a string key and a plaintext string, 
+ * enciphers plantext according to devigenere cipher and string key,
+ * and outputs encrypted string.
+ *
+ * Usage: ./vigenere key
+ *
+ * v1. check50 :) style50 :)
+ *
+ */
 
 // include libraries
 #include <stdio.h>
