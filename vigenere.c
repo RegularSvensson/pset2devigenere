@@ -48,6 +48,9 @@ int main(int argc, string argv[])
                 // key char to uppercase
                 char keyChar = toupper(key[j % strlen(key)]);
                 
+                // encipher letter
+                char letter = ((text[i] - 65 + keyChar - 65) % 26) + 65;
+                
             }
             // else, text char is lowercase
             else
